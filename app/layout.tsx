@@ -36,11 +36,23 @@ export default function RootLayout({
                 <nav className="grid items-start px-4 text-sm font-medium">
                   <NavItem href="/">
                     <UsersIcon className="h-4 w-4" />
-                    Users
+                    Tenants
                   </NavItem>
                   <NavItem href="/settings">
                     <SettingsIcon className="h-4 w-4" />
                     Settings
+                  </NavItem>
+                  <NavItem href="/user">
+                    Properties
+                  </NavItem>
+                  <NavItem href="/settings">
+                    Calander & Tasks
+                  </NavItem>
+                  <NavItem href="/settings">
+                    Vendors
+                  </NavItem>
+                  <NavItem href="/settings">
+                    Finances
                   </NavItem>
                 </nav>
               </div>
@@ -53,7 +65,7 @@ export default function RootLayout({
                 href="/"
               >
                 <Logo />
-                <span className="">ACME</span>
+                <span className="">Next Vaca</span>
               </Link>
               <User />
             </header>
