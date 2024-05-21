@@ -45,8 +45,8 @@ export default function RootLayout({
                   <NavItem href="/user">
                     Properties
                   </NavItem>
-                  <NavItem href="/calander">
-                    Calander & Tasks
+                  <NavItem href="/calendar">
+                    Calendar & Tasks
                   </NavItem>
                   <NavItem href="/settings">
                     Vendors
