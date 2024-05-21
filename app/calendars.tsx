@@ -1,3 +1,4 @@
+'use client';
 import Paper from '@mui/material/Paper';
 import { ViewState } from '@devexpress/dx-react-scheduler';
 import {

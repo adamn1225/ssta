@@ -1,4 +1,3 @@
-'use client';
 import Calendars from "../calendars";
 
 export default async function Calendar() {
