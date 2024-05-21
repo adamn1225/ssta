@@ -45,7 +45,7 @@ export default function RootLayout({
                   <NavItem href="/user">
                     Properties
                   </NavItem>
-                  <NavItem href="/settings">
+                  <NavItem href="/calender">
                     Calander & Tasks
                   </NavItem>
                   <NavItem href="/settings">
