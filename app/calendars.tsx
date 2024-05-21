@@ -8,7 +8,7 @@ import {
 
 
 
-export default async function Calendar(){
+export default async function Calendars(){
 
   const currentDate = '2018-11-01';
   const schedulerData = [
