@@ -1,4 +1,4 @@
-import Calendar from "../calendar";
+import Calendar from "../calendars";
 
 export default async function SettingsPage() {
     return (
