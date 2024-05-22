@@ -15,6 +15,7 @@
     "@mui/material": "^5.15.18",
     "@neondatabase/serverless": "^0.9.3",
     "@radix-ui/react-slot": "^1.0.2",
+    "@syncfusion/ej2-react-schedule": "^25.2.4",
     "@types/node": "20.12.11",
     "@types/react": "18.3.2",
     "@types/react-dom": "18.3.0",
