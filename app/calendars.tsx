@@ -4,7 +4,7 @@ import {
 } from '@syncfusion/ej2-react-schedule';
 import { timelineResourceData } from './datasource';
 
-export default function Calendars() {
+export default async function Calendars() {
   const eventSettings: EventSettingsModel = { dataSource: timelineResourceData }
   const group = { byGroupID: false, resources: ['Projects', 'Categories'] }
 
