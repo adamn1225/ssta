@@ -8,7 +8,7 @@ export default async function SettingsPage() {
         <h1 className="font-semibold pb-1 text-lg md:text-2xl">Settings</h1>
         <p>Customize your account below.</p>
       </div>
-      <div className="flex flex-col items-start">
+      <div className="flex flex-col items-center justify-center h-screen">
 
        <Box
       component="form"
