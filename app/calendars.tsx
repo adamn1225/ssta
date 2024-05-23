@@ -8,17 +8,16 @@ import {
   Appointments,
 } from '@devexpress/dx-react-scheduler-material-ui';
 
-const currentDate = '2018-11-01';
-const schedulerData = [
-  { startDate: '2018-11-01T09:45', endDate: '2018-11-01T11:00', title: 'Meeting' },
-  { startDate: '2018-11-01T12:00', endDate: '2018-11-01T13:30', title: 'Go to a gym' },
-];
-
 export default async function Calendars() {
-
+  const currentDate = '2018-11-01';
   const schedulerData = [
-    { startDate: '2018-11-01T09:45', endDate: '2018-11-01T11:00', title: 'Meeting' },
-    { startDate: '2018-11-01T12:00', endDate: '2018-11-01T13:30', title: 'Go to a gym' },
+    { startDate: '2018-5-01T09:45', endDate: '2018-11-01T11:00', title: 'Guest Check-in' },
+
+
+    { startDate: '2018-11-01T09:45', endDate: '2018-11-01T11:00', title: 'Checkout' },
+    { startDate: '2018-11-01T12:00', endDate: '2018-11-01T13:30', title: 'Pool Cleaing' },
+    { startDate: '2018-11-01T09:45', endDate: '2018-11-01T11:00', title: 'Cleaning' },
+    { startDate: '2018-11-01T12:00', endDate: '2018-11-01T13:30', title: 'Mantainance' },
   ];
   
   return (
