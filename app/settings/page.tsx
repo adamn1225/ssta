@@ -5,19 +5,11 @@ export default async function SettingsPage() {
   return (
     <main className="flex flex-1 flex-col gap-4 p-4 md:gap-8 md:p-6">
       <div className="flex flex-col items-center">
-        <h1 className="font-semibold text-lg md:text-2xl">Settings</h1>
+        <h1 className="font-semibold pb-1 text-lg md:text-2xl">Settings</h1>
         <p>Customize your account below.</p>
       </div>
-      <div className="flex items-start">
-      <table>
-  <thead>
-    <tr>
-      <th>Default Settings</th>
-    </tr>
-   </thead>
-   <tbody>
-     <tr>
-       <td>
+      <div className="flex flex-col items-start">
+
        <Box
       component="form"
       sx={{
@@ -26,28 +18,14 @@ export default async function SettingsPage() {
       noValidate
       autoComplete="off"
     >
+
     <label>Minimum Deposit</label>
     <TextField id="outlined-basic" label="$0.00" variant="outlined" />
-    </Box>
-       </td>
-     </tr>
-     <tr>
-      <td>
-      <Box
-      component="form"
-      sx={{
-        '& > :not(style)': { m: 1, width: '25ch' },
-      }}
-      noValidate
-      autoComplete="off"
-    >
+      <br />
     <label>Mark Property Vacant After:</label>
     <TextField id="outlined-basic" label="Amount of Days" variant="outlined" />
+
     </Box>
-      </td>
-     </tr>
-  </tbody>
-</table>
       </div>
     </main>
   );
