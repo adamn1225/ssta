@@ -36,7 +36,7 @@ export default function RootLayout({
                 <nav className="grid items-start px-4 text-sm font-medium">
                   <NavItem href="/">
                     <UsersIcon className="h-4 w-4" />
-                    Tenants
+                    Shippers
                   </NavItem>
                   <NavItem href="/settings">
                     <SettingsIcon className="h-4 w-4" />
