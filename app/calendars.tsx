@@ -11,14 +11,11 @@ import {
 export default async function Calendars() {
   const currentDate = '2018-11-01';
   const schedulerData = [
-    { startDate: '2018-11-01T09:45', endDate: '2018-11-11T11:00', title: 'Guest Check-in' },
+    { startDate: '2018-11-11T09:45', endDate: '2018-11-11T11:00', title: 'Mark Follow-Up' },
 
 
-    { startDate: '2018-11-11T011:00', endDate: '2018-11-11T11:00', title: 'Guest Checkout' },
-    
-    { startDate: '2018-11-12T12:00', endDate: '2018-11-12', title: 'Pool Cleaing' },
-    { startDate: '2018-11-12T14:45', endDate: '2018-11-12', title: 'Cleaning' },
-    { startDate: '2018-11-12T16:00', endDate: '2018-11-12', title: 'Mantainance' },
+    { startDate: '2018-11-13T11:00', endDate: '2018-11-13T11:30', title: 'Post to Loadboard' },
+
   ];
   
   return (

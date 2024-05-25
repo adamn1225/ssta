@@ -34,25 +34,19 @@ export default function RootLayout({
               </div>
               <div className="flex-1 overflow-auto py-2">
                 <nav className="grid items-start px-4 text-sm font-medium">
-                  <NavItem href="/">
-                    <UsersIcon className="h-4 w-4" />
-                    Shippers
-                  </NavItem>
-                  <NavItem href="/settings">
+                <NavItem href="/settings">
                     <SettingsIcon className="h-4 w-4" />
                     Settings
                   </NavItem>
-                  <NavItem href="/user">
-                    Properties
+                  <NavItem href="/">
+                    <UsersIcon className="h-4 w-4" />
+                    Shippers
                   </NavItem>
                   <NavItem href="/calendar">
                     Calander & Tasks
                   </NavItem>
                   <NavItem href="/settings">
                     Vendors
-                  </NavItem>
-                  <NavItem href="/settings">
-                    Finances
                   </NavItem>
                 </nav>
               </div>
