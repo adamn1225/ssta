@@ -18,9 +18,10 @@ export default async function SettingsPage() {
       noValidate
       autoComplete="off"
     >
-    <div className='flex flex-col gap-y-1'>
-    <label>Remind time before scheduled task:</label>
-    <TextField id="outlined-basic" label="30 min" variant="outlined" />
+    <div className='flex flex-row gap-y-1'>
+    <label>Send SMS :
+    <TextField id="outlined-basic" label="2 Days" variant="outlined" />
+    Prior To Shipping Date</label>
     </div>
       <br />
     <div className='flex flex-col gap-y-1'>

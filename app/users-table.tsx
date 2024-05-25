@@ -29,6 +29,14 @@ export function UsersTable({
   return (
     <>
       <form className="border shadow-sm rounded-lg">
+      <Button
+          className="w-full"
+          size="sm"
+          variant="outline"
+          disabled
+        >
+          Add Follow Up
+        </Button>
         <Table>
           <TableHeader>
             <TableRow>

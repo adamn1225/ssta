@@ -1,4 +1,4 @@
-import { getUsers } from '@/lib/db';
+import { getUsers,  } from '@/lib/db';
 import { UsersTable } from './users-table';
 import { Search } from './search';
 
@@ -15,7 +15,7 @@ export default async function IndexPage({
   return (
     <main className="flex flex-1 flex-col p-4 md:p-6">
       <div className="flex items-center mb-8">
-        <h1 className="font-semibold text-lg md:text-2xl">NTS Shipper Tasks</h1>
+        <h1 className="font-semibold text-lg md:text-2xl">NTS Shipper Tasks/Follow Ups</h1>
       </div>
       <div className="w-full mb-4">
         <Search value={searchParams.q} />

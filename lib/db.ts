@@ -53,3 +53,9 @@ export async function getUsers(
 export async function deleteUserById(id: number) {
   await db.delete(users).where(eq(users.id, id));
 }
+
+export type NewUser = typeof users.$inferInsert;
+
+export async function insertUser (user: NewUser) {
+  return db.insert(users).values(user).returning();
+};

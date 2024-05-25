@@ -29,7 +29,7 @@ export default function RootLayout({
                   href="/"
                 >
                   <Logo />
-                  <span className="">NTS Tasks & Follow Ups</span>
+                  <span className="">Auto Follow Up</span>
                 </Link>
               </div>
               <div className="flex-1 overflow-auto py-2">
@@ -40,7 +40,7 @@ export default function RootLayout({
                   </NavItem>
                   <NavItem href="/">
                     <UsersIcon className="h-4 w-4" />
-                    Shippers
+                    Task/Follow Up List
                   </NavItem>
                   <NavItem href="/calendar">
                     Calander & Tasks
@@ -62,7 +62,7 @@ export default function RootLayout({
                 href="/"
               >
                 <Logo />
-                <span className="">Next Vaca</span>
+                <span className="">Auto Follow Up</span>
               </Link>
               <User />
             </header>
