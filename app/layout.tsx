@@ -45,8 +45,11 @@ export default function RootLayout({
                   <NavItem href="/calendar">
                     Calander & Tasks
                   </NavItem>
-                  <NavItem href="/settings">
+                  <NavItem href="/">
                     Vendors
+                  </NavItem>
+                  <NavItem href="/settings">
+                    Aggregator/API
                   </NavItem>
                 </nav>
               </div>
