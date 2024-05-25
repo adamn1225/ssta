@@ -29,7 +29,7 @@ export default function RootLayout({
                   href="/"
                 >
                   <Logo />
-                  <span className="">NEXT VACA</span>
+                  <span className="">NTS Tasks & Follow Ups</span>
                 </Link>
               </div>
               <div className="flex-1 overflow-auto py-2">
