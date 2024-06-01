@@ -29,7 +29,7 @@ export default function RootLayout({
                   href="/"
                 >
                   <Logo />
-                  <span className="">Auto Follow Up</span>
+                  <span className="">NTS Client Portal</span>
                 </Link>
               </div>
               <div className="flex-1 overflow-auto py-2">
