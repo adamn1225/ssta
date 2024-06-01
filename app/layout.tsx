@@ -40,16 +40,22 @@ export default function RootLayout({
                   </NavItem>
                   <NavItem href="/">
                     <UsersIcon className="h-4 w-4" />
-                    Task/Follow Up List
+                    Dashboard
                   </NavItem>
                   <NavItem href="/calendar">
-                    Calander & Tasks
+                    Shipping Calander
                   </NavItem>
                   <NavItem href="/">
-                    Vendors
+                    Current/Past Orders
                   </NavItem>
                   <NavItem href="/settings">
-                    Aggregator/API
+                    Settings
+                  </NavItem>
+                  <NavItem href="/payments">
+                    Payments/Invoices
+                  </NavItem>
+                  <NavItem href="/documents">
+                    Documents
                   </NavItem>
                 </nav>
               </div>
