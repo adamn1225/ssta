@@ -45,17 +45,20 @@ export default function RootLayout({
                   <NavItem href="/calendar">
                     Shipping Calander
                   </NavItem>
-                  <NavItem href="/">
+                  <NavItem href="/orders">
                     Current/Past Orders
                   </NavItem>
-                  <NavItem href="/settings">
-                    Settings
+                  <NavItem href="/quotes">
+                    Shipping Rates
                   </NavItem>
                   <NavItem href="/payments">
                     Payments/Invoices
                   </NavItem>
                   <NavItem href="/documents">
                     Documents
+                  </NavItem>
+                  <NavItem href="/settings">
+                    Settings
                   </NavItem>
                 </nav>
               </div>
